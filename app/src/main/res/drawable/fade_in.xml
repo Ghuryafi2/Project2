@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Colored rectangle-->
+    <!--https://stackoverflow.com/questions/26311785/android-drawing-custom-shapes-->
+    <!--https://stackoverflow.com/questions/5646944/how-to-set-shapes-opacity-->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#44000000" />
+
+            <!--<gradient-->
+            <!--android:startColor="#BB000000"-->
+            <!--android:centerColor="#999"-->
+            <!--android:endColor="#FFF"-->
+            <!--android:angle="90"/>-->
+        </shape>
+    </item>
+
+</layer-list>

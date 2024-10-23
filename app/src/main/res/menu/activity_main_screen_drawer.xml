@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_utilities"
+            android:icon="@drawable/ic_utilities"
+            android:title="@string/utilities" />
+
+        <!--<item-->
+        <!--android:id="@+id/navigation_news"-->
+        <!--android:icon="@drawable/news_icon"-->
+        <!--android:title="@string/news_and_events" />-->
+
+        <item
+            android:id="@+id/nav_files"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/files" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/log_out" />
+    </group>
+
+</menu>
