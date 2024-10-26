@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="contentArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="975.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.swe206project.PlanPageController">
+   <children>
+      <AnchorPane fx:id="mondayCard" layoutX="368.0" layoutY="148.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseEntered="#mondayCardInHover" onMouseExited="#mondayCardOutHover" prefHeight="175.0" prefWidth="240.0" style="-fx-background-color: #f4f9f1; -fx-background-radius: 10px;" AnchorPane.leftAnchor="368.0" AnchorPane.rightAnchor="367.0" AnchorPane.topAnchor="160.0">
+         <children>
+            <HBox fx:id="mondayCardHeader" prefHeight="75.0" prefWidth="240.0" style="-fx-background-color: #43896b; -fx-background-radius: 10px 10px 0 0;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="140.0" text="Monday">
+                     <HBox.margin>
+                        <Insets left="50.0" right="50.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Tahoma Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ImageView fx:id="mondayDetailsIcon" fitHeight="71.0" fitWidth="74.0" layoutX="85.0" layoutY="88.0" onMouseClicked="#mondayDetailsIconOnClicked" onMouseEntered="#mondayDetailsIconInHover" onMouseExited="#mondayDetailsIconOutHover" onMousePressed="#mondayDetailsIconOnPressed" onMouseReleased="#mondayDetailsIconOnReleased" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/detalisIcon.gif" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="sundayCard" layoutX="85.0" layoutY="148.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseEntered="#sundayCardInHover" onMouseExited="#sundayCardOutHover" prefHeight="175.0" prefWidth="240.0" style="-fx-background-color: #f4f9f1; -fx-background-radius: 10px; " AnchorPane.leftAnchor="85.0" AnchorPane.topAnchor="160.0">
+         <children>
+            <HBox fx:id="sundayCardHeader" prefHeight="75.0" prefWidth="240.0" style="-fx-background-color: #43896b; -fx-background-radius: 10px 10px 0 0;" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="0.0" prefWidth="140.0" text="Sunday" textAlignment="CENTER">
+                     <HBox.margin>
+                        <Insets left="50.0" right="50.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Tahoma Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ImageView fx:id="sundayDetailsIcon" fitHeight="71.0" fitWidth="74.0" layoutX="85.0" layoutY="88.0" onMouseClicked="#sundayDetailsIconOnClicked" onMouseEntered="#sundayDetailsIconInHover" onMouseExited="#sundayDetailsIconOutHover" onMousePressed="#sundayDetailsIconOnPressed" onMouseReleased="#sundayDetailsIconOnReleased" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/detalisIcon.gif" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="tuesdayCard" layoutX="650.0" layoutY="148.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseEntered="#tuesdayCardInHover" onMouseExited="#tuesdayCardOutHover" prefHeight="175.0" prefWidth="240.0" style="-fx-background-color: #f4f9f1; -fx-background-radius: 10px;" AnchorPane.rightAnchor="85.0" AnchorPane.topAnchor="160.0">
+         <children>
+            <HBox fx:id="tuesdayCardHeader" prefHeight="75.0" prefWidth="240.0" style="-fx-background-color: #43896b; -fx-background-radius: 10px 10px 0 0;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="140.0" text="Tuesday">
+                     <HBox.margin>
+                        <Insets left="50.0" right="50.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Tahoma Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ImageView fx:id="tuesdayDetailsIcon" fitHeight="71.0" fitWidth="74.0" layoutX="85.0" layoutY="88.0" onMouseClicked="#tuesdayDetailsIconOnClicked" onMouseEntered="#tuesdayDetailsIconInHover" onMouseExited="#tuesdayDetailsIconOutHover" onMousePressed="#tuesdayDetailsIconOnPressed" onMouseReleased="#tuesdayDetailsIconOnReleased" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/detalisIcon.gif" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="wednesdayCard" layoutX="91.0" layoutY="373.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseEntered="#wednesdayCardInHover" onMouseExited="#wednesdayCardOutHover" prefHeight="175.0" prefWidth="240.0" style="-fx-background-color: #f4f9f1; -fx-background-radius: 10px;" AnchorPane.leftAnchor="85.0" AnchorPane.topAnchor="375.0">
+         <children>
+            <HBox fx:id="wednesdayCardHeader" prefHeight="75.0" prefWidth="240.0" style="-fx-background-color: #43896b; -fx-background-radius: 10px 10px 0 0;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="180.0" text="Wednesday">
+                     <HBox.margin>
+                        <Insets left="30.0" right="30.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Tahoma Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ImageView fx:id="wednesdayDetailsIcon" fitHeight="71.0" fitWidth="74.0" layoutX="85.0" layoutY="88.0" onMouseClicked="#wednesdayDetailsIconOnClicked" onMouseEntered="#wednesdayDetailsIconInHover" onMouseExited="#wednesdayDetailsIconOutHover" onMousePressed="#wednesdayDetailsIconOnPressed" onMouseReleased="#wednesdayDetailsIconOnReleased" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/detalisIcon.gif" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="thursdayCard" layoutX="366.0" layoutY="373.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseEntered="#thursdayCardInHover" onMouseExited="#thursdayCardOutHover" prefHeight="175.0" prefWidth="240.0" style="-fx-background-color: #f4f9f1; -fx-background-radius: 10px;" AnchorPane.leftAnchor="367.5" AnchorPane.rightAnchor="367.5" AnchorPane.topAnchor="375.0">
+         <children>
+            <HBox fx:id="thursdayCardHeader" prefHeight="75.0" prefWidth="240.0" style="-fx-background-color: #43896b; -fx-background-radius: 10px 10px 0 0;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="140.0" text="Thursday">
+                     <HBox.margin>
+                        <Insets left="50.0" right="50.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Tahoma Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ImageView fx:id="thursdayDetailsIcon" fitHeight="71.0" fitWidth="74.0" layoutX="85.0" layoutY="88.0" onMouseClicked="#thursdayDetailsIconOnClicked" onMouseEntered="#thursdayDetailsIconInHover" onMouseExited="#thursdayDetailsIconOutHover" onMousePressed="#thursdayDetailsIconOnPressed" onMouseReleased="#thursdayDetailsIconOnReleased" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/detalisIcon.gif" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="saturdayCard" layoutX="646.0" layoutY="374.0" maxHeight="-Infinity" maxWidth="-Infinity" onMouseEntered="#saturdayCardInHover" onMouseExited="#saturdayCardOutHover" prefHeight="175.0" prefWidth="240.0" style="-fx-background-color: #f4f9f1; -fx-background-radius: 10px;" AnchorPane.rightAnchor="85.0">
+         <children>
+            <HBox fx:id="saturdayCardHeader" prefHeight="75.0" prefWidth="240.0" style="-fx-background-color: #43896b; -fx-background-radius: 10px 10px 0 0;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="140.0" text="Saturday">
+                     <HBox.margin>
+                        <Insets left="50.0" right="50.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Tahoma Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ImageView fx:id="saturdayDetailsIcon" fitHeight="71.0" fitWidth="74.0" layoutX="85.0" layoutY="88.0" onMouseClicked="#saturdayDetailsIconOnClicked" onMouseEntered="#saturdayDetailsIconInHover" onMouseExited="#saturdayDetailsIconOutHover" onMousePressed="#saturdayDetailsIconOnPressed" onMouseReleased="#saturdayDetailsIconOnReleased" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/images/detalisIcon.gif" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <Button fx:id="progressButton" layoutX="368.0" layoutY="644.0" mnemonicParsing="false" onMouseClicked="#progressButtonOnClicked" onMouseEntered="#progressButtonInHover" onMouseExited="#progressButtonOutHover" onMousePressed="#progressButtonOnPressed" onMouseReleased="#progressButtonOnReleased" prefHeight="50.0" prefWidth="240.0" style="-fx-background-color: #43896B; -fx-background-radius: 15px;" text="Progress" textAlignment="CENTER" textFill="#f4f9f1" AnchorPane.bottomAnchor="50.0">
+         <font>
+            <Font name="Arial Bold" size="28.0" />
+         </font>
+      </Button>
+      <Label fx:id="planTitle" alignment="CENTER" layoutX="185.0" layoutY="49.0" prefHeight="50.0" prefWidth="606.0" text="Title" textFill="#f4f9f1" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font name="Georgia Bold" size="43.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorMessage" layoutX="337.0" layoutY="582.0" text="You do not have a session in this day!" textFill="#d53a0b" visible="false">
+         <font>
+            <Font name="Tahoma Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="failIcon" fitHeight="38.0" fitWidth="51.0" layoutX="299.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/images/loginFailIcon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
